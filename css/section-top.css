@@ -169,4 +169,23 @@
     .footer{
         width: 1200px !important;
     }
+    .section-top__promo{
+        width: 1000px;
+    }
+    .calc__form{
+        width: 600px;
+
+    }
+    .calc__header{
+        font-size: 37px;
+    }
+    .calc__submit{
+        width: 464px;
+        height: 200px;
+        font-size: 25px;
+    }
+    .checkbox{
+        width: 25px;
+        height: 25px;
+    }
 }
