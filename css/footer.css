@@ -1,0 +1,21 @@
+.footer{
+    background-color: rgb(15, 32, 80);
+
+}
+.footer__inner{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 30px;
+}
+.footer__logo{
+    font-size: 30px;
+    height: 40px;
+}
+.footer__contact{
+    height: 20px;
+}
+.footer__coorp{
+    color: white;
+}

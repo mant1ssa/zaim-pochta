@@ -1,0 +1,35 @@
+.section-trust{
+    width: 1200px;
+    margin: 130px auto;
+    color: rgb(15, 32, 80);
+}
+.section-trust__header{
+    width: 740px;
+    margin: 0 auto;
+    font-size: 48px;
+    font-weight: 900;
+}
+.section-trust__inner{
+    margin-top: 85px;
+}
+.inner__items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.item{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item__header{
+    margin-top: 15px;
+}
+.item__text{
+    text-align: center;
+}
+.icon{
+    margin-top: 18px;
+}
