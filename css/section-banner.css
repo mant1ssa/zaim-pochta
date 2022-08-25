@@ -2,7 +2,8 @@
     /* width: 1200px; */
 }
 .section-banner__inner{
-    max-height: 240px;
+    /* max-height: 240px; */
+    overflow: hidden;
 }
 .banner__banner{
     display: flex;

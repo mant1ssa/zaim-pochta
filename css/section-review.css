@@ -22,7 +22,9 @@
 .reviews__review,
 .reviews__review-sl{
     width: 330px;
-    height: 313px;
+    height: 300px;
+    min-width: 270px;
+    min-height: 270px;
     background: white;
     padding: 0 25px 25px 25px;
     text-align: center;
@@ -38,4 +40,38 @@
     color: #61908a;
     font-size: 18px;
     font-style: italic;
+}
+
+.slider__container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+.slider-line{
+    display: flex;
+    transition: all ease 1s;
+}
+.slider{
+    display: none;
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    max-width: 80%;
+    width: 270px;
+    height: 300px;
+    /* height: 300px; */
+    margin: 20px auto;
+    overflow: hidden;
+}
+.reviews__review-sl{
+    width: 270px;
+}
+.slider-prev,
+.slider-next{
+    display: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: #007aff;
+    border: 0;
 }
