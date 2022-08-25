@@ -1,6 +1,6 @@
 .section-trust{
-    width: 1200px;
-    margin: 130px auto;
+    padding-top: 130px;
+    padding-bottom: 130px;
     color: rgb(15, 32, 80);
 }
 .section-trust__header{
@@ -11,11 +11,13 @@
 }
 .section-trust__inner{
     margin-top: 85px;
+
 }
 .inner__items{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 .item{
     width: 150px;

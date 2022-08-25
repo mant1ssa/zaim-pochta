@@ -6,7 +6,6 @@
 }
 .banner__banner{
     display: flex;
-    width: 1200px;
     margin: 0 auto;
     /* border: 2px solid black; */
     border-radius: 20px;
