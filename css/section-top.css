@@ -1,6 +1,7 @@
 .section-top{
     width: 100%;
-    height: 90vh;
+    /* height: 90vh; */
+    height: 740px;
     background-color: black;
     background: url(../img/kreml.jpg);
     background-repeat: no-repeat;

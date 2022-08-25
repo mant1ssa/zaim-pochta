@@ -31,7 +31,7 @@
         text-align: center;
     }
     .section-top{
-        height: 120vh;
+        height: 980px;
     }
     /* .promo__calc{
         width: 100%;
@@ -71,9 +71,15 @@
         width: 100%;
         padding: 15px;
     }
+    .footer__inner{
+        flex-direction: column;
+    }
 }
 
 @media (max-width:420px) {
+    .section-top{
+        height: 1100px;
+    }
     .header__inner{
         flex-direction: column;
     }
@@ -104,8 +110,8 @@
     .banner__btn{
         margin-top: 15px;
     }
-    .section-top__header{
-        /* margin-bottom: 50px; */
+    /* .section-top__header{
+        margin-bottom: 50px;
         display: none;
-    }
+    } */
 }
