@@ -32,9 +32,24 @@
     border-radius: 7px 7px;
     box-shadow: rgb(33 33 33 / 6%) 0 4px 24px 5px;
 }
+.reviews__review{
+    position: relative;
+}
+.review__img-block{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    border: 5px solid #efefef;
+    border-radius: 50% 50%;
+    left: 35%;
+    top: -25%;
+}
+
 .review__name{
     font-size: 15px;
     margin: 35px auto;
+    margin-top: 56px;
 }
 .review__text{
     color: #61908a;
