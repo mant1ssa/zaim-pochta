@@ -104,4 +104,8 @@
     .banner__btn{
         margin-top: 15px;
     }
+    .section-top__header{
+        /* margin-bottom: 50px; */
+        display: none;
+    }
 }
