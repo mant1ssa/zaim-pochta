@@ -73,6 +73,11 @@
         flex-direction: column;
     }
 }
+@media (max-width:520px) {
+    .promo__info{
+        width: 100%;
+    }
+}
 
 @media (max-width:420px) {
     .section-top{
