@@ -72,6 +72,14 @@
     /* border: 10px solid yellow; */
     /* width: 50%; */
 }
+#calc__pos,
+#pos__sub{
+    margin-top: 20px;
+    display: inline-block
+}
+#pos__sub{
+    margin: 0;
+}
 .calc__form{
     width: 400px;
     height: 555px;
@@ -104,7 +112,12 @@
     display: flex;
     flex-wrap: wrap;
     border: 0;
-    margin-top: 30px;
+    /* margin-top: 30px; */
+}
+.calc__hz{
+    margin-top: 20px;
+    text-align:center;
+    font-weight: 700;
 }
 .inputs__input{
     background: rgba(11,31,53,.05);
@@ -139,6 +152,9 @@
 .calc__agreement{
     border: 0;
     margin-top: 30px;
+}
+.agreement{
+    font-size: 12px;
 }
 .checkbox{
     font-size: 11px;

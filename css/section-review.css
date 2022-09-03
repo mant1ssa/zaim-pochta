@@ -1,7 +1,9 @@
 .section-review{
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: #f8f8f8;
     width: 100%;
+    overflow: hidden;
 }
 .section-review__header{
     width: 690px;
@@ -13,11 +15,15 @@
     font-weight: 900;
 }
 .section-review__reviews{
-    margin-top: 20px;
+    margin-top: 70px;
     max-width: 100%;
-    height: 400px;
+    /* height: 400px; */
     display: flex;
     justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    column-gap: 60px;
 }
 .reviews__review,
 .reviews__review-sl{
@@ -34,6 +40,7 @@
 }
 .reviews__review{
     position: relative;
+    margin: 0 200px;
 }
 .review__img-block{
     width: 100px;
@@ -58,10 +65,14 @@
 }
 
 .slider__container{
-    display: flex;
+    /* display: flex; */
+    display: none;
+    min-width: 0;
     align-items: center;
     gap: 10px;
     margin-bottom: 100px;
+    margin-top: 100px;
+    padding: 0 20px;
 }
 .slider-line{
     display: flex;
@@ -89,4 +100,32 @@
     height: 50px;
     background-color: #007aff;
     border: 0;
+}
+
+.slick-track{
+    display: flex;
+    align-items: flex-start;
+}
+
+.slider__container .slick-dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slider__container .slick-dots li{
+    list-style: none;
+    margin: 0 10px;
+}
+.slider__container .slick-dots button{
+    font-size: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    /* background-color: #007aff; */
+    background-color: rgb(122, 113, 113);
+    border: 0;
+}
+.slider__container .slick-dots li.slick-active button{
+    background-color: #007aff;
 }

@@ -49,8 +49,14 @@
                         <div class="calc__sum-left">Сумма</div>
                         <div class="calc__sum-right" id="zxc">1000&#8381</div>
                     </div>
-                    <input type="range" class="calc__range" id="calc__range" min="1000" max="60000" value="1000" step="1000" name="sum">
+                    <input type="range" class="calc__range" id="calc__range" min="1000" max="100000" value="1000" step="1000" name="sum">
 
+                    <div id="calc__pos">
+                        Вероятность одобрения
+                        <div id="pos__sub"></div>
+                    </div>
+
+                    <p class="calc__hz">Введите свои данные</p>
                     <fieldset class="calc__inputs">
                         <input type="text" class="inputs__input" placeholder="Имя" name="name" required>
                         <input type="text" class="inputs__input" placeholder="Фамилия" name="surname" required>
@@ -152,24 +158,29 @@
                     </div>
                 </div>
                 <div class="slider__container">
-                    <button class="slider-prev"></button>
-                    <div class="slider">
-                        <div class="slider-line">
-                            <div class="reviews__review-sl">
-                                <h6 class="review__name">Александр А.</h6>
-                                <p class="review__text">По стечению обстоятельств нужно было найти найти деньги. Оформил займ в Семейный займ. Деньги получил сразу, рекомендую!</p>
-                            </div>
-                            <div class="reviews__review-sl">
-                                <h6 class="review__name">Любовь С.</h6>
-                                <p class="review__text">По совету подруги обратилась сюда за помощью. Никаких проблем при оформлении займа не возникло. Спасибо вам!!</p>
-                            </div>
-                            <div class="reviews__review-sl">
-                                <h6 class="review__name">Артур И.</h6>
-                                <p class="review__text">Очень радует, что в наше время есть такие компании, как Семейный займ, которые могут помочь в тяжелое время.</p>
-                            </div>
+                    <!-- <button class="slider-prev"></button> -->
+                    <div class="reviews__review">
+                        <div class="review__img-block">
+                            <img src="img/p1.jpg" alt="" class="review__img extra">
                         </div>
+                        <h6 class="review__name">Александр А.</h6>
+                        <p class="review__text">По стечению обстоятельств нужно было найти найти деньги. Оформил займ в Семейный займ. Деньги получил сразу, все прошло хорошо, рекомендую!</p>
                     </div>
-                    <button class="slider-next"></button>
+                    <div class="reviews__review">
+                        <div class="review__img-block">
+                            <img src="img/p2.jpg" alt="" class="review__img extra">
+                        </div>
+                        <h6 class="review__name">Любовь С.</h6>
+                        <p class="review__text">По совету подруги обратилась сюда за помощью. Никаких проблем при оформлении займа не возникло. Спасибо вам!!</p>
+                    </div>
+                    <div class="reviews__review">
+                        <div class="review__img-block">
+                            <img src="img/p3.jpg" alt="" class="review__img extra">
+                        </div>
+                        <h6 class="review__name">Артур И.</h6>
+                        <p class="review__text">Очень радует, что в наше время есть такие компании, как Семейный займ, которые могут помочь в тяжелое время. Благодаря ним дела наладились, спасибо огромное</p>
+                    </div>
+                    <!-- <button class="slider-next"></button> -->
                 </div>
         </div>
     </section>
@@ -222,6 +233,8 @@
         </div>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/range.js"></script>
     <script src="js/slider.js"></script>
     <script src="https://kit.fontawesome.com/1720c648d1.js" crossorigin="anonymous"></script>

@@ -1,10 +1,8 @@
 /* ADAPTIVE Here */
 
 @media (max-width:1028px) {
-    .slider{
+    .slider__container{
         display: block;
-        width: 270px !important;
-        height: 300px;
     }
     .slider-prev,
     .slider-next{
